@@ -1,0 +1,86 @@
+.block{
+    margin: 3rem auto ;
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+}
+
+.box1{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(53, 51, 51);
+    position: relative;
+}
+
+#display{
+    text-align: end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    color: rgb(223, 220, 217);
+    background-color: rgb(53, 51, 51);
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+
+.box2{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(92, 91, 91);
+}
+
+.div{
+    width: 100px;
+    border: 1px solid rgb(80, 78, 78);
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(53, 51, 51);
+}
+
+.div:active{
+    background: rgb(57, 102, 11);
+}
+
+.one{
+    width: 100px;
+    border: 1px solid rgb(80, 78, 78);
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.one:active{
+    background: rgb(136, 240, 32);
+}
+
+#clear{
+    width: 100px;
+    border: 1px solid rgb(80, 78, 78);
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(53, 51, 51);
+}
+
+#clear:active{
+    background: chocolate;
+}
